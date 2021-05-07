@@ -1,0 +1,18 @@
+*********************************** WordPress Custom Theme Documentation ***********************************
+
+1. প্রথমে wordpress theme support পাওয়ার জন্ন্য index.php, style.css, screenshot.png ফাইল ও ছবি নিতে হবে ।
+
+2. style.css ফাইল এর ভিতরে theme function লিখতে হবে comment ভিতরে =>
+   /*
+   theme name: shakil theme 
+   theme URI: shakil.com  
+   author: shakil
+   author URI: shakil.com 
+   virsion: 0.01
+   description: this is my first theme in wordpress
+   tag: shakil, sadbin shakil, sadbin
+   text domain: shakil theme 
+   */
+
+3. তারপর inc ফাইল create করতে হবে Redux এর জন্ন্য ।
+4. তারপর Redux এর ভিতর থেকে framework.php এবং config.php ফাইল লিঙ্ক করতে হবে ।
